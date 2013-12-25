@@ -4,7 +4,7 @@
     <string name="applicationName">Bunları Yap!</string>
     
     <string name="taskDescriptionHint">İşinizi Tanımlayın</string>
-    <string name="deadline">Bitiş Zamanı</string>
+    <string name="deadline">Bitiş</string>
     <string name="priorityLevel">Öncelik</string>
     <string-array name="priorityLevels">
         <item>Yüksek</item>
