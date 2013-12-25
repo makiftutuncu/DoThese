@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="applicationName">Bunları Yap!</string>
+    
+    <string name="taskDescriptionHint">İşinizi Tanımlayın</string>
+    <string name="deadline">Bitiş Zamanı</string>
+    <string name="priorityLevel">Öncelik</string>
+    <string-array name="priorityLevels">
+        <item>Yüksek</item>
+        <item>Normal</item>
+        <item>Düşük</item>
+    </string-array>
+    <string name="notify">Bitiş zamanı yaklaştığında hatırlat</string>
+    
+    <string-array name="navigationList">
+        <item>Tüm İşler</item>
+        <item>Yüksek Önclikli İşler</item>
+        <item>Normal Öncelikli İşler</item>
+        <item>Düşük Öncelikli İşler</item>
+    </string-array>
+    
+    <string name="info_saved">İş kaydedildi.</string>
+    <string name="info_deleted">İş silindi.</string>
+    <string name="info_notificationSet">Hatırlatıcı ayarlandı.</string>
+    <string name="info_notificationRemoved">Hatırlatıcı silindi.</string>
+    
+    <string name="info_noTasks">Kayıtlı iş yok.\n\nYeni bir iş eklemek için + simgesine dokunun.</string>
+    
+    <string name="error_invalidDescription">Lütfen işiniz için bir tanım girin.</string>
+    <string name="error_invalidDeadline">Lütfen bitiş zamanı olarak gelecekte bir zaman seçin.</string>
+    
+    <string name="notification_info">%1$s dakika kaldı</string>
+    <string name="notification_action_done">İşi yapıldı olarak işaretle</string>
+    
+    <string name="notificationPreferences_title">Hatırlatıcı Seçenekleri</string>
+    <string name="notificationPreferences_time">Hatırlatıcı Zamanı</string>
+    <string name="notificationPreferences_time_info">İşin bitiş zamanından %1$s dakika önce hatırlatılacak.</string>
+    <string-array name="notificationPreferences_times">
+        <item>1 dakika</item>
+        <item>5 dakika</item>
+        <item>10 dakika</item>
+        <item>15 dakika</item>
+        <item>20 dakika</item>
+        <item>30 dakika</item>
+        <item>45 dakika</item>
+        <item>60 dakika</item>
+    </string-array>
+    <string-array name="notificationPreferences_times_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+    </string-array>
+    <string name="notificationPreferences_time_default">15</string>
+    
+    <string name="action_delete">Sil</string>
+    <string name="action_edit">Düzenle</string>
+    <string name="action_new">Yeni İş</string>
+    <string name="action_save">Kaydet</string>
+    <string name="action_cancel">İptal</string>
+
+</resources>

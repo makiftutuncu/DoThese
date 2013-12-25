@@ -1,0 +1,8 @@
+<resources>
+
+    <color name="transparent">#0000</color>
+    <color name="task_done">#006200</color>
+    <color name="task_not_done">#de6200</color>
+    <color name="task_overdue">#ff0000</color>
+
+</resources>

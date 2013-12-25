@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/notificationPreferences_title" >
+        <ListPreference
+            android:defaultValue="@string/notificationPreferences_time_default"
+            android:entries="@array/notificationPreferences_times"
+            android:entryValues="@array/notificationPreferences_times_values"
+            android:key="preference_notificationTime"
+            android:summary="@string/notificationPreferences_time_info"
+            android:title="@string/notificationPreferences_time" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

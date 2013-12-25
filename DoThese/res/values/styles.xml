@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="DoTheseBaseTheme" parent="android:Theme.Light" />
+        
+    <style name="DoTheseTheme" parent="DoTheseBaseTheme" />
+
+</resources>

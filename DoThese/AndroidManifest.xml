@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="tr.edu.iyte.ceng389.dothese"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_launcher"
+        android:label="@string/applicationName"
+        android:theme="@style/DoTheseTheme" >
+        <provider
+            android:name="tr.edu.iyte.ceng389.dothese.database.TaskProvider"
+            android:authorities="tr.edu.iyte.ceng389.dothese.TaskProvider"
+            android:exported="true"
+            tools:ignore="ExportedContentProvider" />
+
+        <activity
+            android:name="tr.edu.iyte.ceng389.dothese.activity.MainActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="tr.edu.iyte.ceng389.dothese.activity.DetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="tr.edu.iyte.ceng389.dothese.activity.NotificationPreferencesActivity"
+            android:screenOrientation="portrait" />
+
+        <receiver
+            android:name="tr.edu.iyte.ceng389.dothese.receiver.NotificationBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="@string/notificationReceiverAction" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

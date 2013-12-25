@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="applicationName">Do These!</string>
+    <string name="notificationReceiverAction">tr.edu.iyte.ceng389.dothese.Notification</string>
+    
+    <string name="taskDescriptionHint">Describe Your Task</string>
+    <string name="deadline">Deadline</string>
+    <string name="priorityLevel">Priority</string>
+    <string-array name="priorityLevels">
+        <item>High</item>
+        <item>Normal</item>
+        <item>Low</item>
+    </string-array>
+    <string name="notify">Notify when deadline is close</string>
+    
+    <string-array name="navigationList">
+        <item>All Tasks</item>
+        <item>High Priority Tasks</item>
+        <item>Normal Priority Tasks</item>
+        <item>Low Priority Tasks</item>
+    </string-array>
+    
+    <string name="info_saved">Task is saved.</string>
+    <string name="info_deleted">Task is deleted.</string>
+    <string name="info_notificationSet">Notification is set.</string>
+    <string name="info_notificationRemoved">Notification is removed.</string>
+    
+    <string name="info_noTasks">There is no task.\n\nTouch + icon to create a new task.</string>
+    
+    <string name="error_invalidDescription">Please provide some description for your task.</string>
+    <string name="error_invalidDeadline">Please select a deadline that has not passed yet.</string>
+    
+    <string name="notification_info">%1$s minute(s) left</string>
+    <string name="notification_action_done">Mark this task as done</string>
+    
+    <string name="notificationPreferences_title">Notification Preferences</string>
+    <string name="notificationPreferences_time">Notification Time</string>
+    <string name="notificationPreferences_time_info">You will be notified %1$s minute(s) before your task deadline.</string>
+    <string-array name="notificationPreferences_times">
+        <item>1 minute</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>30 minutes</item>
+        <item>45 minutes</item>
+        <item>60 minutes</item>
+    </string-array>
+    <string-array name="notificationPreferences_times_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+    </string-array>
+    <string name="notificationPreferences_time_default">15</string>
+    
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_new">New Task</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+
+</resources>
